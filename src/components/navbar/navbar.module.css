@@ -1,0 +1,22 @@
+.title {
+  @apply font-bold text-transparent text-2xl;
+  background-clip: text !important;
+  background: rgb(45, 212, 191);
+  background: linear-gradient(
+    28deg,
+    rgba(45, 212, 191, 1) 0%,
+    rgba(45, 212, 191, 1) 82%,
+    rgba(20, 184, 166, 1) 100%
+  );
+}
+
+.nav__item {
+  @apply flex flex-col items-end;
+}
+
+.nav__item span {
+  @apply text-xs leading-none text-teal-300;
+}
+.nav__item p {
+  @apply leading-tight;
+}
