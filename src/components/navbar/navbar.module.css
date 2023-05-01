@@ -11,7 +11,8 @@
 }
 
 .nav__item {
-  @apply flex flex-col items-end;
+  @apply flex flex-col items-end tracking-wide;
+  @apply transition-all ease-linear duration-150 hover:tracking-widest;
 }
 
 .nav__item span {
